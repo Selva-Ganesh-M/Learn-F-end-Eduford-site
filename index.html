@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eduford</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- header section -->
+    <section class="header">
+      <nav>
+        <a href="#"
+          ><img src="./assets/images/logo.png" alt="eduford-logo"
+        /></a>
+        <div class="nav-links-wrapper">
+          <ul id="nav-links-list" class="nav-links-list">
+            <li>
+              <a href=""><i class="fa side fa-home"></i>HOME</a>
+            </li>
+            <li>
+              <a href=""><i class="fa side fa-info-circle"></i>ABOUT</a>
+            </li>
+            <li>
+              <a href=""><i class="fa side fa-atom"></i>COURSE</a>
+            </li>
+            <li>
+              <a href=""><i class="fa side fa-blog"></i>BLOG</a>
+            </li>
+            <li>
+              <a href=""><i class="fa side fa-user"></i>CONTACT</a>
+            </li>
+          </ul>
+        </div>
+        <i
+          id="hamburger"
+          onclick="showSlider()"
+          class="main fa fa-2xl fa-bars"
+        ></i>
+      </nav>
+      <section id="nav-side-bar">
+        <span id="times" onclick="hideSlider()">&times;</span>
+        <ul id="nav-links-list-side-bar" class="nav-links-list-side-bar">
+          <li>
+            <a href=""><i class="fa side fa-home"></i>HOME</a>
+          </li>
+          <li>
+            <a href=""><i class="fa side fa-info-circle"></i>ABOUT</a>
+          </li>
+          <li>
+            <a href=""><i class="fa side fa-atom"></i>COURSE</a>
+          </li>
+          <li>
+            <a href=""><i class="fa side fa-blog"></i>BLOG</a>
+          </li>
+          <li>
+            <a href=""><i class="fa side fa-user"></i>CONTACT</a>
+          </li>
+        </ul>
+      </section>
+      <section class="text-box">
+        <h1>World's Biggest University</h1>
+        <p>
+          Making website is now one of the easiest thing in the world. You just
+          need to learn html, css Javascript and you are good to go.
+        </p>
+        <a href="" class="heroName">Visit us to know more.</a>
+      </section>
+    </section>
+
+    <!-- Course section -->
+    <section id="course">
+      <h1 class="section-heading">Courses we offer</h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+      <div class="courses-row">
+        <div class="courses-col">
+          <h3>intermediate</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+            alias non labore dolor eos amet cupiditate dolorum sed recusandae
+            doloremque facilis quas libero, at a qui aspernatur, totam
+            laboriosam eaque?
+          </p>
+        </div>
+        <div class="courses-col">
+          <h3>intermediate</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+            alias non labore dolor eos amet cupiditate dolorum sed recusandae
+            doloremque facilis quas libero, at a qui aspernatur, totam
+            laboriosam eaque?
+          </p>
+        </div>
+        <div class="courses-col">
+          <h3>intermediate</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+            alias non labore dolor eos amet cupiditate dolorum sed recusandae
+            doloremque facilis quas libero, at a qui aspernatur, totam
+            laboriosam eaque?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- campus section -->
+    <section id="campus">
+      <div class="campus-header-section">
+        <h1 class="section-heading">Out Gloabal Campus</h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem,
+          quisquam? Nulla illum nisi esse laboriosam.
+        </p>
+      </div>
+      <div class="campus-row">
+        <div class="campus-col">
+          <img src="./assets/images/london.png" />
+          <div class="cover-london"><h3>LONDON</h3></div>
+        </div>
+        <div class="campus-col">
+          <img src="./assets/images/newyork.png" />
+          <div class="cover-london"><h3>NEW YORK</h3></div>
+        </div>
+        <div class="campus-col">
+          <img src="./assets/images/washington.png" />
+          <div class="cover-london"><h3>WASHINGTON</h3></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- facilities section -->
+
+    <section id="facilities">
+      <div class="section-header">
+        <h1 class="section-heading">Our Facilites</h1>
+        <p class="section-description">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo,
+          similique!
+        </p>
+      </div>
+      <div class="facilities-row">
+        <div class="facilities-col">
+          <img src="./assets/images/library.png" />
+          <h3>World class library</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid,
+            error. Lorem ipsum dolor sit amet.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="./assets/images/basketball.png" />
+          <h3>Largest basketball court</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid,
+            error. Lorem ipsum dolor sit amet.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="./assets/images/cafeteria.png" />
+          <h3>Tasty and healthy food</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid,
+            error. Lorem ipsum dolor sit amet.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      const times = document.getElementById("times");
+      const hideSlider = () => {
+        document.getElementById("nav-side-bar").style.display = "none";
+      };
+      const showSlider = () => {
+        document.getElementById("nav-side-bar").style.display = "block";
+      };
+    </script>
+  </body>
+</html>
