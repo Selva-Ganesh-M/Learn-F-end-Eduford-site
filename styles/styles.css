@@ -282,7 +282,7 @@ nav {
 }
 
 .testimonials-body {
-  flex-basis: 70%;
+  flex-basis: 80%;
 }
 
 .student-name {
@@ -384,5 +384,15 @@ nav {
   .facilities-col {
     flex-basis: 70%;
     margin: 1em 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .testimonials-row {
+    flex-direction: column;
+  }
+  .testimonials-col {
+    flex-basis: 80%;
+    margin-bottom: 2em;
   }
 }
