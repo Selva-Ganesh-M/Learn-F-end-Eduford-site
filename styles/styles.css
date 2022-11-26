@@ -148,7 +148,7 @@ nav {
 }
 
 .courses-col:hover {
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 .section-heading {
@@ -270,6 +270,11 @@ nav {
   padding: 1em;
   border-radius: 10px;
   text-align: left;
+  transition: 0.3s transform ease;
+}
+
+.testimonials-col:hover {
+  transform: scale(1.03);
 }
 
 .testimonials-img-div {
@@ -282,7 +287,7 @@ nav {
 }
 
 .testimonials-body {
-  flex-basis: 80%;
+  flex-basis: 70%;
 }
 
 .student-name {
@@ -294,6 +299,32 @@ nav {
 
 .gold {
   color: gold;
+}
+
+/* cta */
+
+#cta {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin: 5em auto;
+}
+
+.banner {
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../assets/images/banner2.jpg");
+  text-align: center;
+  padding: 100px 0;
+  color: white;
+}
+
+.banner h1 {
+  font-size: 32px;
+}
+
+.banner img {
+  width: 100%;
 }
 
 /* media queries */
@@ -375,24 +406,38 @@ nav {
 @media (max-width: 780px) {
   .courses-row,
   .campus-row,
-  .facilities-row {
+  .facilities-row,
+  .testimonials-row {
     flex-direction: column;
   }
 
   .courses-col,
   .campus-col,
-  .facilities-col {
+  .facilities-col,
+  .testimonials-col {
     flex-basis: 70%;
     margin: 1em 0;
+  }
+
+  .banner h1 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  .banner h1 {
+    font-size: 16px;
   }
 }
 
 @media (max-width: 900px) {
-  .testimonials-row {
-    flex-direction: column;
-  }
   .testimonials-col {
-    flex-basis: 80%;
-    margin-bottom: 2em;
+    flex-basis: 43%;
+  }
+}
+
+@media (max-width: 550px) {
+  .text-box {
+    margin-top: 3em;
   }
 }
