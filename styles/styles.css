@@ -246,6 +246,56 @@ nav {
   border-radius: 10px;
   margin-bottom: 1em;
 }
+
+/* testimonials section */
+
+#testimonials {
+  width: 80%;
+  margin: auto;
+  padding: 4em 0;
+  text-align: center;
+}
+
+.testimonials-row {
+  margin-top: 3em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonials-col {
+  flex-basis: 45%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff3f3;
+  padding: 1em;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.testimonials-img-div {
+  flex-basis: 20%;
+}
+
+.testimonials-col img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.testimonials-body {
+  flex-basis: 70%;
+}
+
+.student-name {
+  display: block;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 2em;
+}
+
+.gold {
+  color: gold;
+}
+
 /* media queries */
 
 @media (max-width: 700px) {
